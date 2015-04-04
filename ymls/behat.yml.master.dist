@@ -2,24 +2,29 @@
 default:
 
     suites:
-
+        default:
+           paths: [ %paths.base%/features/ ]
+           contexts:
+             - FeatureContext:
+                 baseUrl: http://example.com
+           filters:
+               tags: @example
         web:
-            paths:    [ %paths.base%/features/web ]
+            paths: [ %paths.base%/features/web ]
             contexts:
-              - FeatureContext:
+              - WebContext:
                   baseUrl: http://html5doctor.com
             filters:
                 tags: @web
         shell:
-            paths:    [ %paths.base%/features/shell ]
+            paths: [ %paths.base%/features/shell ]
             contexts:
               - ShellContext
             filters:
                 tags: @shell
         api:
-            paths:    [ %paths.base%/features/api ]
+            paths: [ %paths.base%/features/api ]
             contexts:
-              - Behat\GuzzleExtension\Context\GuzzleContext
               - APIContext:
                   baseUrl: 'http://jsonplaceholder.typicode.com'
             filters:
@@ -32,7 +37,7 @@ default:
 
         chartinger\Behat\TwigReportExtension\Extension:
           output:
-            file: ./reports/saucey_report.html
+            file: ./reports/saucey_report_api.html
           templates:
             file: default.twig
 
