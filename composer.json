@@ -1,24 +1,24 @@
 {
-    "name": "saucey/drivers",
-    "type": "saucey-drivers",
+    "name": "saucey/framework",
+    "type": "saucey/framework",
     "license": "MIT",
-    "description": "This is a collection of drivers for the saucey test suite.",
-    "keywords": ["behat", "mink", "php", "chromedriver", "selenium"],
+    "description": "This is a collection of drivers, yamls, and data for the saucey test framework. Please do not modify without making sure that you're changing the requirements from within saucey.",
+    "keywords": ["behat", "mink", "php", "chromedriver", "selenium", "yaml"],
     "homepage": "http://saucey.io",
     "authors": [
         {
             "name": "Sajjad Hossain",
-            "email": "me@sajjad.pw"
+            "email": "sajjad@withpulp.com"
         }
     ],
     "repositories": [
         {
             "type": "package",
             "package": {
-                "name": "saucey/drivers",
+                "name": "saucey/framework",
                 "version": "master",
                 "source": {
-                    "url": "git://github.com/sajjadhossain/saucey-drivers.git",
+                    "url": "git://github.com/withpulp/saucey-framework.git",
                     "type": "git",
                     "reference": "master"
                 },
