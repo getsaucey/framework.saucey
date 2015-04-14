@@ -1,6 +1,6 @@
-#saucey/drivers
+#saucey/framework
 
-This is a collection of drivers for the saucey test suite.
+This is a collection of drivers, yamls, and data for the saucey test framework. Please **do not modify** without making sure that you're changing the requirements from within saucey.
 
 Find out more @ [http://saucey.io](http://saucey.io)  
 Fork the repo @ [https://github.com/getsaucey/saucey](https://github.com/getsaucey/saucey)  
@@ -15,7 +15,11 @@ Saucey is an Automation framework written in mainly PHP. Designed to kick-ass an
 ##What it do?
 This framework allows testers to:
 
-* Control selenium & headless drivers with Gherkin
+* Control most aspects of the PC, i.e open a native app, run a native app on Xcode/iOS Simulator, etc.
+* Click, right-click, double-click, triple-click & drag via X/Y coordinates
+* Press any keyboard key(s) either in conjunction or individually.
+* iOS/Android gestures, i.e. 4-finger swipe left/right
+* Create & maintain tests for selenium & headless drivers with Gherkin
 * Evaluate API endpoints with business-logic driven code
 * Test UI elements with user-driven logic
 * Verify arrangement of files and directories; availability of assets
@@ -25,9 +29,10 @@ This framework allows testers to:
 
 ##MOAR
 * Find out more @ [http://saucey.io](http://saucey.io)  
-* Fork the repo @ [https://github.com/saucey-io/saucey.git](https://github.com/saucey-io/saucey.git) 
-* See [wiki](https://github.com/getsaucey/saucey/wiki/)
-* See the [winery-setup](https://github.com/getsaucey/saucey/wiki/The-Winery) for more on how this framework was set up.  
+* Fork the repo @ [https://github.com/withpulp/saucey.git](https://github.com/withpulp/saucey.git) 
+* See [wiki](https://github.com/withpulp/saucey/wiki/)
+	* See the [winery-setup](https://github.com/withpulp/saucey/wiki/The-Winery) for more on how this framework was set up.  
+	* See the [winery-setup](https://github.com/withpulp/saucey/wiki/The-Cellar) for available functionality.  
 * More on Behat [here](http://docs.behat.org/en/v3.0/)  
 * .. Mink [here](http://mink.behat.org/en/latest/)  
 * .. Pear [here](http://pear.php.net/)
