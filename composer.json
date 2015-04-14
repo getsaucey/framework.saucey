@@ -1,6 +1,6 @@
 {
     "name": "saucey/framework",
-    "type": "saucey/framework",
+    "type": "saucey-framework",
     "license": "MIT",
     "description": "This is a collection of drivers, yamls, and data for the saucey test framework. Please do not modify without making sure that you're changing the requirements from within saucey.",
     "keywords": ["behat", "mink", "php", "chromedriver", "selenium", "yaml"],
@@ -16,7 +16,7 @@
             "type": "package",
             "package": {
                 "name": "saucey/framework",
-                "version": "master",
+                "version": "dev-master",
                 "source": {
                     "url": "git://github.com/withpulp/saucey-framework.git",
                     "type": "git",
