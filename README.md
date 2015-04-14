@@ -31,8 +31,8 @@ This framework allows testers to:
 * Find out more @ [http://saucey.io](http://saucey.io)  
 * Fork the repo @ [https://github.com/withpulp/saucey.git](https://github.com/withpulp/saucey.git) 
 * See [wiki](https://github.com/withpulp/saucey/wiki/)
-	* See the [The Winery](https://github.com/withpulp/saucey/wiki/The-Winery) for more on how this framework was set up.  
-	* See the [The Cellar](https://github.com/withpulp/saucey/wiki/The-Cellar) for available functionality.  
+	* See [The Winery](https://github.com/withpulp/saucey/wiki/The-Winery) for more on how this framework was set up.  
+	* See [The Cellar](https://github.com/withpulp/saucey/wiki/The-Cellar) for available functionality.  
 * More on Behat [here](http://docs.behat.org/en/v3.0/)  
 * .. Mink [here](http://mink.behat.org/en/latest/)  
 * .. Pear [here](http://pear.php.net/)
